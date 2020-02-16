@@ -10,9 +10,8 @@ RUN apk add --no-cache build-base gtk+2.0-dev && \
     wget -q https://sourceforge.net/projects/opentaxsolver/files/latest && \
     unzip -q latest && \
     mv OpenTaxSolver*/* . && \
-    rm -rf bin latest Run* OpenTaxSolver* && \
-    ./src/Build_*.sh && \
-    rm -rf src Run*
+    rm -rf bin latest OpenTaxSolver* Run* && \
+    ./src/Build_*.sh
 
 #####
 
