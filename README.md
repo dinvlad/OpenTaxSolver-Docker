@@ -12,7 +12,7 @@ Usage:
     ```
 2.  Run
     ```
-    socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
+    socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\" &
     docker run --rm -it -e DISPLAY=host.docker.internal:0 -v $HOME/taxes:/taxes dinvlad/opentaxsolver
     ```
 
