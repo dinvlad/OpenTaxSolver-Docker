@@ -17,4 +17,4 @@ Usage:
     ```
 
 3.  Use `/taxes` folder to store your tax files from the UI.
-    The files will appear in `$HOME/taxes` on your computer.
+    The files will appear in `$HOME/taxes` folder on your computer.
